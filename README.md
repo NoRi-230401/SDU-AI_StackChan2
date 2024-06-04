@@ -1,3 +1,80 @@
+# SDU-AI-StackChan2
+SD-Updaterに対応した AiStackChan2 です。<br>
+
+<br>
+robo8080 さんのソフトから次の修正を行いました。<br>
+- SD-Updater対応。<br>
+- サーボ設定情報を外部ファイル（servo.txt）で設定。<br>
+- サーボattach時の合否判定の修正。<br>
+
+<br>
+ブート時に、SD_Updater用の画面が立ち上がります。<br>
+SDに入れたソフトを切り替えることができるようになります。<br>
+<br>
+
+
+
+## 設定ファイル
+SD直下に置いてください。
+
+- servo.txt<br>
+Servo設定ファイル<br>
+１行目(USE_SERVO)   ： "on" または、 "off"<br>
+２行目(SERVO_PIN_X) ： "13"(PortC)　または、"33"(PortA)<br>
+３行目(SERVO_PIN_Y) ： "14"(PortC)　または、"32"(PortA)<br>
+<br>
+
+サンプルを用意しています。ファイル名を"servo.txt"に変更してご使用ください。<br>
+<br>
+
+
+## 必要なもの
+### 本体<br>
+いずれかを用意してください。<br>
+・M5Stack Core2 for AWS<br>
+・M5Stack Core2 <br>
+・M5Stack Core2 v1.1　（未確認）<br>
+<br>
+
+### サーボ
+・SG90　または互換<br>
+・サーボポートは、PortAまたは、PortC のどちらも対応。<br>
+<br>
+
+### SDカード
+SDルートに設定ファイル"servo.txt"が必要です。<br>
+<br>
+
+
+## 最新BINの取得
+コンパイル済みの最新BINファイルは、下記のリポジトリから取得できます。
+- [BinsPack-for-StackChan-Core2](https://github.com/NoRi-230401/BinsPack-for-StackChan-Core2)<br>
+<br>
+
+
+## SD-Updaterについて
+tobozoさん開発。SDに複数のBINファイルを入れて、ソフトを切替えて使用できるようになります。<br>
+
+ https://github.com/tobozo/M5Stack-SD-Updater<br><br>
+
+
+タカオさん、2023/7/29 ｽﾀｯｸﾁｬﾝ お誕生日会 2023のLTで、M5Stack-SD-Updaterの概要を説明した時のスライド<br>
+https://speakerdeck.com/mongonta0716/sutatukutiyandefu-shu-apuriwoqie-riti-erutekunituku
+
+<br><br>
+
+
+## 基のリポジトリ
+- [AI-StackChan2　(robo8080さん)](https://github.com/robo8080/AI_StackChan2)<br>
+<br>
+<br><br>
+
+ここから、基のソフトの説明書です。
+
+-----
+
+
+
 # AI_StackChan2
 AIｽﾀｯｸﾁｬﾝ2です。
 <br><br>
