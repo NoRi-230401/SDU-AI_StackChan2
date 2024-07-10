@@ -1,5 +1,8 @@
 # SDU-AI-StackChan2
+
 SD-Updaterに対応した AiStackChan2 です。<br>
+
+<b>2024-07-10 rootCACertificate.h更新しました。</b>
 
 <br>
 robo8080 さんのソフトから次の修正を行いました。<br>
