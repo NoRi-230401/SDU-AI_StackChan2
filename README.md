@@ -1,28 +1,26 @@
 # SDU-AI-StackChan2
 
-SD-Updaterに対応した AiStackChan2 です。<br>
-
-<b>2024-07-10 rootCACertificate.h更新しました。</b>
-
+robo8080さん作成 AI-StackChan2 ソフトに次の修正を行いました。<br>
+- rootCACertificate.h更新(2024-07-10)</b>
+- ChatGPTのモデル変更 "gpt-4o-mini" 
+- SD-Updater対応<br>
+- サーボPortを外部ファイル（servo.txt）で設定。<br>
 <br>
-robo8080 さんのソフトから次の修正を行いました。<br>
-- SD-Updater対応。<br>
-- サーボ設定情報を外部ファイル（servo.txt）で設定。<br>
-- サーボattach時の合否判定の修正。<br>
-
-<br>
+<b>SD-Updaterに対応した AiStackChan2 です。</b><br>
 ブート時に、SD_Updater用の画面が立ち上がります。<br>
-SDに入れたソフトを切り替えることができるようになります。<br>
+SDに入れた他のソフトに切り替えることができます。<br>
+このソフトのBINファイルおよび他のソフトは、下記リンクから入手できます。<br>
+https://github.com/NoRi-230401/BinsPack-for-StackChan-Core2 <br>
+
 <br>
-
-
 
 ## 設定ファイル
-SD直下に置いてください。
+apikye.txt, wifie.txtは、AI-StackChan2と同じです。
 
-- servo.txt<br>
-Servo設定ファイル<br>
-１行目(USE_SERVO)   ： "on" または、 "off"<br>
+<b>新規に "servo.txt"　をSD直下に設置してください。</b><br>
+サーボモーターを使用するGPIO番号等の値を設定してください。
+- servo.txt :  Servo設定用ファイル<br>
+１行目(USE_SERVO)   ： "on" (使用する)　または、 "off"（使用しない）<br>
 ２行目(SERVO_PIN_X) ： "13"(PortC)　または、"33"(PortA)<br>
 ３行目(SERVO_PIN_Y) ： "14"(PortC)　または、"32"(PortA)<br>
 <br>
@@ -35,11 +33,14 @@ Servo設定ファイル<br>
 ### 本体<br>
 いずれかを用意してください。<br>
 ・M5Stack Core2 for AWS<br>
-・M5Stack Core2 <br>
-・M5Stack Core2 v1.1　（未確認）<br>
+・M5Stack Core2 v1.0<br>
+
+<b>M5Stack Core2 v1.1 は、対応していません。</b><br>
+　（SD_Updater の menu.bin が非対応であるため）<br>
 <br>
 
 ### サーボ
+サーボが無くても顔だけの動作も可能ですが、あると楽しいです。<br>
 ・SG90　または互換<br>
 ・サーボポートは、PortAまたは、PortC のどちらも対応。<br>
 <br>
@@ -72,7 +73,7 @@ https://speakerdeck.com/mongonta0716/sutatukutiyandefu-shu-apuriwoqie-riti-erute
 <br>
 <br><br>
 
-ここから、基のソフトの説明書です。
+以下、AI-StackChan2　(robo8080さん)の説明を掲載しています。
 
 -----
 

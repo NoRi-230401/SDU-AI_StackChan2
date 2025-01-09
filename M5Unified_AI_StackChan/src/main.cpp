@@ -219,8 +219,9 @@ static const char ROLE_HTML[] PROGMEM = R"KEWL(
 String speech_text = "";
 String speech_text_buffer = "";
 DynamicJsonDocument chat_doc(1024 * 10);
-String json_ChatString = "{\"model\": \"gpt-3.5-turbo-1106\",\"messages\": [{\"role\": \"user\", \"content\": \""
-                         "\"}]}";
+// --- 2025-01-19:  chatGpt model changed to "gpt-4o-mini" ---
+// String json_ChatString = "{\"model\": \"gpt-3.5-turbo-1106\",\"messages\": [{\"role\": \"user\", \"content\": \"""\"}]}";
+String json_ChatString = "{\"model\": \"gpt-4o-mini\",\"messages\": [{\"role\": \"user\", \"content\": \"""\"}]}";
 String Role_JSON = "";
 
 bool init_chat_doc(const char *data)
@@ -1291,7 +1292,11 @@ void setup()
   box_BtnC.setupBox(280, 100, 40, 60);
 }
 
-String random_words[18] = {"あなたは誰", "楽しい", "怒った", "可愛い", "悲しい", "眠い", "ジョークを言って", "泣きたい", "怒ったぞ", "こんにちは", "お疲れ様", "詩を書いて", "疲れた", "お腹空いた", "嫌いだ", "苦しい", "俳句を作って", "歌をうたって"};
+// String random_words[18] = {"あなたは誰", "楽しい", "怒った", "可愛い", "悲しい", "眠い", "ジョークを言って", "泣きたい", "怒ったぞ", "こんにちは", "お疲れ様", "詩を書いて", "疲れた", "お腹空いた", "嫌いだ", "苦しい", "俳句を作って", "歌をうたって"};
+// --------------------   2024-08-16：  「まっく まるちぷろとこる」さんの変更を採用しました。
+// 『お腹空いた』だとChatGPTは【あいた】と回答してしまう為、わざとひらがなにて【すいた】に変更しました。
+String random_words[18] = {"あなたは誰","楽しい","怒った","可愛い","悲しい","眠い","ジョークを言って","泣きたい","怒ったぞ","こんにちは","お疲れ様","詩を書いて","疲れた","お腹がすいた","嫌いだ","苦しい","俳句を作って","歌をうたって"};
+
 int random_time = -1;
 bool random_speak = true;
 static int lastms1 = 0;
