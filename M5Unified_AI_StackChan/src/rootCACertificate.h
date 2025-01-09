@@ -1,5 +1,7 @@
 // certificate for https://api.openai.com
+// 証明書更新。A-Utaさんの証明書を使用
 // https://github.com/A-Uta/AI_StackChan_Minimal/blob/main/AI_StackChan_Minimal/src/rootCACertificate.h
+
 const char* root_ca_openai = \
 "-----BEGIN CERTIFICATE-----\n" \
 "MIICCTCCAY6gAwIBAgINAgPlwGjvYxqccpBQUjAKBggqhkjOPQQDAzBHMQswCQYD\n" \
