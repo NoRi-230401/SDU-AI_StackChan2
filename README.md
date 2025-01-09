@@ -8,9 +8,11 @@ robo8080さん作成 AI-StackChan2 ソフトに次の修正を行いました。
 <br>
 <b>SD-Updaterに対応した AiStackChan2 です。</b><br>
 ブート時に、SD_Updater用の画面が立ち上がります。<br>
-SDに入れた他のソフトを切り替えることができるようになります。<br>
-<br>
+SDに入れた他のソフトに切り替えることができます。<br>
+このソフトのBINファイルおよび他のソフトは、下記リンクから入手できます。<br>
+https://github.com/NoRi-230401/BinsPack-for-StackChan-Core2 <br>
 
+<br>
 
 ## 設定ファイル
 apikye.txt, wifie.txtは、AI-StackChan2と同じです。
