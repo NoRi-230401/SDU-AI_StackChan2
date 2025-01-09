@@ -61,6 +61,18 @@ https://speakerdeck.com/mongonta0716/sutatukutiyandefu-shu-apuriwoqie-riti-erute
 <br><br>
 
 
+
+## M5Burnerに登録しています
+GitHubでソース取得し、自分でコンパイルして本体に書き込むこともできますが、<br>
+M5Burnerを使ってインストールできるようにしました。<br>
+「CORE2 ＆ TOUGH」を指定して、"AIｽﾀｯｸﾁｬﾝ2"で検索すると出てきます。<br>
+M5Burnerの「AIｽﾀｯｸﾁｬﾝ2 SD-Updater対応版」をご使用ください。<br>
+<br>
+![画像](images/M5BurnerSDU-AI-StackChan2v102.png)<br><br>
+
+<br>
+
+
 ## 最新および他のソフトのBINファイルの取得
 コンパイル済みの最新BINファイルは、下記のリポジトリから取得できます。
 - [BinsPack-for-StackChan-Core2](https://github.com/NoRi-230401/BinsPack-for-StackChan-Core2)<br><br><br><br>
