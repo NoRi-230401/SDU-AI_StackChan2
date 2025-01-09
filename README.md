@@ -9,10 +9,7 @@ robo8080さん作成 AI-StackChan2 ソフトに次の修正を行いました。
 <b>SD-Updaterに対応した AiStackChan2 です。</b><br>
 ブート時に、SD_Updater用の画面が立ち上がります。<br>
 SDに入れた他のソフトに切り替えることができます。<br>
-このソフトのBINファイルおよび他のソフトは、下記リンクから入手できます。<br>
-https://github.com/NoRi-230401/BinsPack-for-StackChan-Core2 <br>
-
-<br>
+<br><br>
 
 ## 設定ファイル
 apikye.txt, wifie.txtは、AI-StackChan2と同じです。
@@ -46,13 +43,9 @@ apikye.txt, wifie.txtは、AI-StackChan2と同じです。
 <br>
 
 ### SDカード
-SDルートに設定ファイル"servo.txt"が必要です。<br>
+SDカードは必要です。<br>
+設定ファイル（apikye.txt, wifie.txt, servo.txt）はSDルート直下に置いてください。
 <br>
-
-
-## 最新BINの取得
-コンパイル済みの最新BINファイルは、下記のリポジトリから取得できます。
-- [BinsPack-for-StackChan-Core2](https://github.com/NoRi-230401/BinsPack-for-StackChan-Core2)<br>
 <br>
 
 
@@ -68,16 +61,19 @@ https://speakerdeck.com/mongonta0716/sutatukutiyandefu-shu-apuriwoqie-riti-erute
 <br><br>
 
 
-## 基のリポジトリ
+## 最新および他のソフトのBINファイルの取得
+コンパイル済みの最新BINファイルは、下記のリポジトリから取得できます。
+- [BinsPack-for-StackChan-Core2](https://github.com/NoRi-230401/BinsPack-for-StackChan-Core2)<br><br><br><br>
+
+
+## 次のリポジトリを基に作成しています。
 - [AI-StackChan2　(robo8080さん)](https://github.com/robo8080/AI_StackChan2)<br>
 <br>
-<br><br>
+<br>
 
-以下、AI-StackChan2　(robo8080さん)の説明を掲載しています。
+以下、AI-StackChan2　(robo8080さん)の説明を掲載します。
 
 -----
-
-
 
 # AI_StackChan2
 AIｽﾀｯｸﾁｬﾝ2です。
